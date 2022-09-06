@@ -258,7 +258,7 @@ var ndx;
         .brushOn(false)
         .centerBar(true)
         .yAxisLabel('Count')
-        .barPadding(8)
+        .barPadding(0.8)
         .outerPadding(10)
         .gap(2)
         .renderlet(function(chart) {
