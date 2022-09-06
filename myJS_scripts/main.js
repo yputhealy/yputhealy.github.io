@@ -247,7 +247,7 @@ var ndx;
             .highlightSelected(true));
 
     data_cChart1
-        .width(270)
+        .width(260)
         .height(400)
         .dimension(data_cDim1)
         .group(nonEmptyHist_year)
