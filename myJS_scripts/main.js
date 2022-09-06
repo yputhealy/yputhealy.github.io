@@ -216,7 +216,7 @@ var ndx;
     sectorChart
     .width(200)
     .height(280)
-    .innerRadius(70)
+    .innerRadius(40)
     .dimension(sectorDim)
     .group(sectorGroup)
     .legend(new dc.HtmlLegend()
@@ -228,7 +228,7 @@ var ndx;
     .width(200)
     .height(280)
     .dimension(pro_locDim)
-    .innerRadius(70)
+    .innerRadius(40)
     .group(pro_locGroup)
     .legend(new dc.HtmlLegend()
         .container('#pro_loc-legend')
@@ -240,7 +240,7 @@ var ndx;
         .height(280)
         .dimension(note_coDim)
         .group(note_coGroup)
-        .innerRadius(70)
+        .innerRadius(40)
         .legend(new dc.HtmlLegend()
             .container('#note_co-legend')
             .horizontal(false)
@@ -248,7 +248,7 @@ var ndx;
 
 
     data_cChart1
-        .width(200)
+        .width(230)
         .height(400)
         .dimension(data_cDim1)
         .group(nonEmptyHist_year)
@@ -275,7 +275,7 @@ var ndx;
     data_cChart
         .width(200)
         .height(280)
-        .innerRadius(70)
+        .innerRadius(40)
         .dimension(data_cDim)
         .group(data_cGroup)
         .legend(new dc.HtmlLegend()
