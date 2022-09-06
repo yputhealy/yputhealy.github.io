@@ -247,7 +247,7 @@ var ndx;
             .highlightSelected(true));
 
     data_cChart1
-        .width(280)
+        .width(270)
         .height(400)
         .dimension(data_cDim1)
         .group(nonEmptyHist_year)
@@ -278,7 +278,6 @@ var ndx;
             .container('#data_c-legend')
             .horizontal(false)
             .highlightSelected(true));
-
 
     natChart
         .width(200)
