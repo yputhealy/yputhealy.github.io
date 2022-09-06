@@ -248,7 +248,7 @@ var ndx;
 
 
     data_cChart1
-        .width(240)
+        .width(260)
         .height(400)
         .dimension(data_cDim1)
         .group(nonEmptyHist_year)
