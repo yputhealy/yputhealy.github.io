@@ -246,7 +246,6 @@ var ndx;
             .horizontal(false)
             .highlightSelected(true));
 
-
     data_cChart1
         .width(300)
         .height(400)
@@ -261,9 +260,9 @@ var ndx;
         .yAxisLabel('Count')
         // .barPadding(0.9)
         // .outerPadding(0.1)
-        // .gap(2)
+        .gap(2)
         .barPadding(8)
-        // .outerPadding(10)
+        .outerPadding(10)
         .gap(2)
         .renderlet(function(chart) {
             chart.selectAll("g.x text")
