@@ -258,16 +258,13 @@ var ndx;
         .brushOn(false)
         .centerBar(true)
         .yAxisLabel('Count')
-        // .barPadding(0.9)
-        // .outerPadding(0.1)
-        .gap(2)
         .barPadding(8)
         .outerPadding(10)
         .gap(2)
         .renderlet(function(chart) {
             chart.selectAll("g.x text")
                 .attr('dx', '0')
-                .attr('dy', '15')
+                .attr('dy', '14')
         })
         .yAxis().ticks(12);
     
