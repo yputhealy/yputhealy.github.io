@@ -214,7 +214,7 @@ var ndx;
         });
 
     sectorChart
-    .width(245)
+    .width(200)
     .height(280)
     .innerRadius(70)
     .dimension(sectorDim)
@@ -225,7 +225,7 @@ var ndx;
         .highlightSelected(true));
 
     pro_locChart
-    .width(280)
+    .width(200)
     .height(280)
     .dimension(pro_locDim)
     .innerRadius(70)
@@ -236,7 +236,7 @@ var ndx;
         .highlightSelected(true))
           
     note_coChart
-        .width(280)
+        .width(180)
         .height(280)
         .dimension(note_coDim)
         .group(note_coGroup)
@@ -248,7 +248,7 @@ var ndx;
 
 
     data_cChart1
-        .width(350)
+        .width(200)
         .height(400)
         .dimension(data_cDim1)
         .group(nonEmptyHist_year)
@@ -273,7 +273,7 @@ var ndx;
         .yAxis().ticks(12);
     
     data_cChart
-        .width(245)
+        .width(200)
         .height(280)
         .innerRadius(70)
         .dimension(data_cDim)
@@ -285,7 +285,7 @@ var ndx;
 
 
     natChart
-        .width(320)
+        .width(200)
         .height(380)
         .margins({
             left: 10,
