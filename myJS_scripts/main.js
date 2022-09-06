@@ -262,7 +262,7 @@ var ndx;
         // .barPadding(0.9)
         // .outerPadding(0.1)
         // .gap(2)
-        .barPadding(5)
+        .barPadding(8)
         // .outerPadding(10)
         .gap(2)
         .renderlet(function(chart) {
