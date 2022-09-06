@@ -236,7 +236,7 @@ var ndx;
         .highlightSelected(true))
           
     note_coChart
-        .width(180)
+        .width(200)
         .height(280)
         .dimension(note_coDim)
         .group(note_coGroup)
@@ -248,7 +248,7 @@ var ndx;
 
 
     data_cChart1
-        .width(230)
+        .width(240)
         .height(400)
         .dimension(data_cDim1)
         .group(nonEmptyHist_year)
