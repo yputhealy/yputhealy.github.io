@@ -10,14 +10,12 @@ var Mapbox = L.tileLayer('https://api.mapbox.com/styles/v1/puthealy/ckyvo21e3003
 
 var map = L.map('map', {
     zoom: 10,
-    layers: [USGS_USImagery, OpenStreetMap, Mapbox]
+    layers: [OpenStreetMap, Mapbox]
 });
 
 var baseMaps = {
-    "USGS Satellite": USGS_USImagery,
     "OpenStreetMap": OpenStreetMap,
     "Mapbox": Mapbox
-
 
 };
 
