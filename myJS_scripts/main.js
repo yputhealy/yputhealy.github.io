@@ -1,9 +1,6 @@
-var USGS_USImagery = L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}', {
-        maxZoom: 20,
-        attribution: '© <a href="https://usgs.gov/">U.S. Geological Survey</a>'
-    }),
+ 
 
-    Mapbox = L.tileLayer('https://api.mapbox.com/styles/v1/puthealy/ckyvo21e3003z14ql7y5c000p/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoicHV0aGVhbHkiLCJhIjoiY2t5dm82enFtMDBqODJ1cDF1NjcyYWM3NCJ9.bz38ppXYa1zIzeBKfcOuBQ', {
+var Mapbox = L.tileLayer('https://api.mapbox.com/styles/v1/puthealy/ckyvo21e3003z14ql7y5c000p/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoicHV0aGVhbHkiLCJhIjoiY2t5dm82enFtMDBqODJ1cDF1NjcyYWM3NCJ9.bz38ppXYa1zIzeBKfcOuBQ', {
         attribution: `© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>`
     }),
 
